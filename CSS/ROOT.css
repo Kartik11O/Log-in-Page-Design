@@ -1,0 +1,93 @@
+:root{
+    --Headline:'Roboto Condensed', sans-serif;
+}
+
+.Ani-left{
+    animation: Sleft 1.5s both;
+}
+
+@keyframes Sleft {
+    100%{
+        
+        transform: translateX(100%);
+    }
+    
+}
+.Ani-right{
+    animation: Sright 1.5s both;
+}
+
+@keyframes Sright {
+    100%{
+        
+        transform: translateX(-100%);
+    }
+    
+}
+
+.Left_C {
+    animation: Showw 1.5s both;
+    animation-delay: 0.3s;   
+}
+
+@keyframes Showw {
+
+    0%{
+        transform: translateX(-500px);
+        opacity: 0;
+    }
+    
+    1%{
+
+    }
+    
+}
+
+.Right_C {
+    animation:  Hidee 1.5s both ;
+    animation-delay: 0.3s;
+}
+
+@keyframes Hidee {
+    
+    0%{
+        opacity: 0;
+        transform: translateX(200px);
+    }
+ 
+
+}
+
+
+
+
+@media (max-width:500px) {
+
+    #container{
+        flex-wrap: wrap;
+    }
+
+    .Ani-left{
+        animation: Sleft 1.5s both;
+    }
+    
+    @keyframes Sleft {
+        100%{
+            
+            transform: translateY(100%);
+        }
+        
+    }
+    .Ani-right{
+        animation: Sright 1.5s both;
+    }
+    
+    @keyframes Sright {
+        100%{
+            
+            transform: translateY(-100%);
+        }
+        
+    }
+
+}
