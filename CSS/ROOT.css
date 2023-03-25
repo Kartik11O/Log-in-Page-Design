@@ -127,6 +127,10 @@
         flex-wrap: wrap;
     }
 
+    section{
+        align-items: start;
+    }
+
     .Ani-left{
         animation: Sleft 1.5s both;
     }
