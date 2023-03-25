@@ -2,6 +2,7 @@
     --Headline:'Roboto Condensed', sans-serif;
 }
 
+/* First Click Container Animation added */
 .Ani-left{
     animation: Sleft 1.5s both;
 }
@@ -24,7 +25,9 @@
     }
     
 }
+/* ////////////////////// */
 
+/* First Click Contant Animation added */
 .Left_C {
     animation: Showw 1.5s both;
     animation-delay: 0.3s;   
@@ -57,11 +60,11 @@
  
 
 }
+/* ////////////////// */
 
 
 
-
-
+/* Second Click Container Animation added */
 .B_right{
     animation: BR 1s both;
 }
@@ -83,7 +86,9 @@
     }
     
 }
+/* /////////////////////// */
 
+/* Second Click Contant Animation added */
 .Left_Back {
     animation: Showww 1.5s both;
     animation-delay: 0.3s;   
@@ -116,11 +121,11 @@
  
 
 }
+/* ///////////////////// */
 
 
 
-
-
+/* Media Animations with mirror changes */
 @media (max-width:500px) {
 
     #container{

@@ -6,7 +6,7 @@ body{
 }
 section{
     width: 100%;
-    height: clamp(721px,100vh,721px);
+    height: clamp(721px,100vh,1536px);
     display: flex;
     justify-content: center;
     align-items: center;
