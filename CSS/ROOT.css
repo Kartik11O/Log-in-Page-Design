@@ -61,6 +61,66 @@
 
 
 
+
+.B_right{
+    animation: BR 1s both;
+}
+
+@keyframes BR {
+    0%{
+        transform: translateX(100%);
+    }
+    
+}
+
+.B_left{
+    animation: BL 1s both;
+}
+
+@keyframes BL {
+    0%{
+        transform: translateX(-100%);
+    }
+    
+}
+
+.Left_Back {
+    animation: Showww 1.5s both;
+    animation-delay: 0.3s;   
+}
+
+@keyframes Showww {
+
+    0%{
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    
+    1%{
+
+    }
+    
+}
+
+.Right_Back {
+    animation:  Hideee 1.5s both ;
+    animation-delay: 0.3s;
+}
+
+@keyframes Hideee {
+    
+    0%{
+        opacity: 0;
+        transform: translateX(-200px);
+    }
+ 
+
+}
+
+
+
+
+
 @media (max-width:500px) {
 
     #container{
@@ -89,5 +149,30 @@
         }
         
     }
+
+    .B_left{
+        animation: BLrr 1s both;
+    }
+    
+    @keyframes BLrr {
+        0%{
+            transform: translateY(-100%);
+        }
+        
+    }
+    
+    .B_right{
+        animation: BRrr 1s both;
+    }
+    
+    @keyframes BRrr {
+        0%{
+            transform: translateY(100%);
+        }
+        
+    }
+    
+    
+   
 
 }
